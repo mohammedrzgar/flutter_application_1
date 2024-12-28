@@ -9,7 +9,7 @@ class MainAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue.shade400,
       title: const Text('My Notes', style: TextStyle(color: Colors.white)),
       actions: [
         Container(
